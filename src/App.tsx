@@ -7,6 +7,7 @@ import ShipmentDetails from './Pages/DashboardPages/ShipmentDetails/ShipmentDeta
 function App(): JSX.Element {
   return (
       <Routes>
+        <Route path="/" element={<Dashboard  />} />
         <Route path="/dashboard" element={<Dashboard  />} />
         <Route path="/history" element={<History  />} />
         <Route path="/shipment/:tno" element={<ShipmentDetails />} />
